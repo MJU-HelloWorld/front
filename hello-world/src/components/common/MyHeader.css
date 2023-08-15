@@ -1,0 +1,177 @@
+/* MyHeader.css */
+
+.Header1 {
+    width: 100%;
+    height: 165px;
+}
+
+
+.Section1 {
+    width: 1104px; 
+    height: 53.2px;
+    margin-left: 189px;
+    justify-content: center;
+    top: 30px; 
+    position: absolute;
+    display: flex;
+}
+
+
+
+.Search {
+    width: 450px;
+    position: absolute;
+    margin-right: 250px;
+}
+
+.Search-box {
+    width: 450px;
+    height: 45px;
+    background-color: "white";
+    border-width: 2px;
+    border-style: solid;
+    border-color: #3366FF;
+    
+}
+
+
+.Search-icon {
+    width: 22px;
+    height: 22px;
+    cursor: "pointer";
+    border: "none";
+    position: absolute;
+    right: 10px;
+    margin-top: -35px;
+}
+
+
+.Sign {
+    color: #333333;
+    font-size: 14px;
+    cursor: pointer;
+    padding-left: 1000px;
+    margin-top: -2.5px;
+    font-family: 'Pretendard';
+    font-weight: 700;
+    line-height: 4;
+    word-wrap: break-word;
+    margin-left: auto;
+}
+
+/*Header2*/
+
+.Header2 {
+    width: 100%; 
+    height: 54px;
+    top: 110px;
+    position: absolute;
+
+}
+
+.Section2 {
+    width: 1104px; 
+    height: 54px;
+    margin-left: 189px;
+    justify-content: center;
+    top: 0px;
+    position: absolute;
+    display: flex; 
+}
+
+.Home {
+    position: 'absolute';
+    color:#ffffff;
+    font-Size: 16;
+    font-family: 'Pretendard';
+    font-weight: 700;
+    line-height: 3.5;
+    word-wrap: break-word;
+    margin-left: -630px;
+    cursor: pointer;
+}
+
+.Free {
+    position: 'absolute';
+    color:#F8F8F8;
+    font-Size: 16;
+    font-family: 'Pretendard';
+    font-weight: 700;
+    line-height: 3.5;
+    word-wrap: break-word;
+    padding-left: 59px;
+    cursor: pointer;
+}
+
+.Wed {
+    position: 'absolute';
+    color:#F8F8F8;
+    font-Size: 16;
+    font-family: 'Pretendard';
+    font-weight: 700;
+    line-height: 3.5;
+    word-wrap: break-word;
+    padding-left: 59px;
+    cursor: pointer;
+}
+
+.You {
+    position: 'absolute';
+    color:#F8F8F8;
+    font-Size: 16;
+    font-family: 'Pretendard';
+    font-weight: 700;
+    line-height: 3.5;
+    word-wrap: break-word;
+    padding-left: 59px;
+    cursor: pointer;
+}
+
+.North {
+    position: 'absolute';
+    color:#F8F8F8;
+    font-Size: 16;
+    font-family: 'Pretendard';
+    font-weight: 700;
+    line-height: 3.5;
+    word-wrap: break-word;
+    padding-left: 59px;
+    cursor: pointer;
+}
+
+.Red-circle {
+    width: 6px;
+    height: 6px; 
+    position: absolute; 
+    border-radius: 9999;
+    float:inherit; 
+}
+
+.Write-btn {
+    width: 110px;
+    height: 38px;  
+    top: 8px; 
+    position: absolute;
+    border-radius: 90;
+    cursor: pointer;
+    margin-left: 990px;
+}
+
+.Write-icon {
+    width: 17px;
+    height: 17px;
+    left: 21px;
+    top: 11px; 
+    position: absolute;}
+
+.Write-text {
+    left: 47px; 
+    top: 7px;
+    position: absolute;
+    color: #3366FF;
+    font-size: 16px;
+    font-family: 'Pretendard'; 
+    font-weight: 700; 
+    line-height: 1.5;
+    word-wrap: break-word;
+}
