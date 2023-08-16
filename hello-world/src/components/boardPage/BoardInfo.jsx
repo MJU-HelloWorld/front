@@ -1,8 +1,10 @@
+import BoardText from "./BoardText"
 function BoardInfo(props) {
+  let text = `${props.type} ${props.count}`
     return (
-      <div>
-          <div>{"["} {props.type} : {props.count} {"]"}</div>
-      </div>
+      <>
+          <BoardText text = {text} type="boardInfo"></BoardText>
+      </>
     );
   }
   

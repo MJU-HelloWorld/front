@@ -1,0 +1,21 @@
+.line_bold {
+  border: none;
+  border-top: 3px solid #333; /* 원하는 색상과 스타일을 설정합니다 */
+  margin: 20px 0; /* 필요한 간격을 설정합니다 */
+  background: #333;
+}
+.category{
+  padding-bottom: 23px;
+}
+.title {
+  border: none;
+  border-top: 3px solid #333;
+  padding: 26px 0px 26px 0px;
+  margin: 0;
+}
+.boardInfo {
+  border: none;
+  border-top: 2px solid #E1E2E3;
+  border-bottom: 2px solid #E1E2E3;
+  padding: 14px 0px 14px 0px;
+}

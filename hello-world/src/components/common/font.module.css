@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Pretendard-Bold";
+  src: url("../assets/fonts/Pretendard-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Pretendard-Medium";
+  src: url("../assets/fonts/Pretendard-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "Pretendard-Bold";
+  src: url("../assets/fonts/Pretendard-Bold.otf") format("opentype");
+}
+
+.textCategory {
+  font-family: Pretendard-Bold, sans-serif;
+  color: #333;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 54px */
+  letter-spacing: -0.396px;
+  
+}
+.textTitle {
+  font-family: Pretendard-Medium, sans-serif;
+  color: #333;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 48px */
+  letter-spacing: -0.352px;
+}
+.textContent {
+  font-family: Pretendard-Medium, sans-serif;
+  color: #333;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.textUserName {
+  font-family: Pretendard-Bold, sans-serif;
+  color: #333;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 21px */
+  letter-spacing: -0.154px;
+}
+.textBoardTime {
+  font-family: Pretendard-Bold, sans-serif;
+  color: #afbccf;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 18px */
+  letter-spacing: -0.132px;
+}
+.textBoardInfo {
+  font-family: Pretendard-Bold, sans-serif;
+  color: #979797;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 21px */
+  letter-spacing: -0.154px;
+}
