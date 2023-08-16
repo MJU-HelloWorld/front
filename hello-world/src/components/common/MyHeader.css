@@ -1,15 +1,18 @@
 /* MyHeader.css */
 
 .Header1 {
-    width: 100%;
+    width: 100vw;
     height: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .Section1 {
-    width: 1104px; 
+    width: 80%;
+    max-width: 1104px;
     height: 53.2px;
-    margin-left: 189px;
     justify-content: center;
     top: 30px; 
     position: absolute;
@@ -19,9 +22,15 @@
 
 
 .Search {
-    width: 450px;
+    max-width: 450px;
     position: absolute;
     margin-right: 250px;
+}
+
+@media screen and (max-width: 1250px) {
+    .Search {
+      visibility: hidden;
+    }
 }
 
 .Search-box {
@@ -63,22 +72,36 @@
 /*Header2*/
 
 .Header2 {
-    width: 100%; 
+    width: 100vw;
     height: 54px;
     top: 110px;
     position: absolute;
     display: flex;
+    justify-content: center;
 
 }
 
 .Section2 {
-    width: 1104px; 
+    width: 80%;
+    max-width: 1104px; 
     height: 54px;
-    margin-left: 150px;
-    justify-content: center;
+    display: flex;
+    justify-content: space-between; /* 변경 */
+    align-items: center;
     top: -15px;
-    position: absolute;
-    display: flex; 
+    position: relative;
+}
+
+.LeftLinks {
+    display: flex;
+    align-items: center;
+    margin-left: -15px;
+}
+
+.RightLinks {
+    display: flex;
+    align-items: center;
+    margin-right: 127px;
 }
 
 .Home {
@@ -89,7 +112,6 @@
     font-weight: 700;
     line-height: 3.5;
     word-wrap: break-word;
-    margin-left: -630px;
     cursor: pointer;
     text-decoration-line : none;
 }
@@ -103,6 +125,7 @@
     line-height: 3.5;
     word-wrap: break-word;
     padding-left: 59px;
+    float:left;
     cursor: pointer;
     text-decoration-line : none;
 }
@@ -116,6 +139,7 @@
     line-height: 3.5;
     word-wrap: break-word;
     padding-left: 59px;
+    float:left;
     cursor: pointer;
     text-decoration-line : none;
 }
@@ -129,6 +153,7 @@
     line-height: 3.5;
     word-wrap: break-word;
     padding-left: 59px;
+    float:left;
     cursor: pointer;
     text-decoration-line : none;
 }
@@ -141,6 +166,7 @@
     font-weight: 700;
     line-height: 3.5;
     word-wrap: break-word;
+    float:left;
     padding-left: 59px;
     cursor: pointer;
     text-decoration-line : none;
@@ -160,7 +186,8 @@
     position: absolute;
     border-radius: 90;
     cursor: pointer;
-    margin-left: 990px;
+    display: flex;
+    align-items: center;
 }
 
 .Write-icon {
