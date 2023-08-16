@@ -1,12 +1,15 @@
 import MyHeader from "../common/MyHeader";
+import MainBox from "../common/mainBox/mainBox";
+import "./Main.scss";
 
-function Homepage() {
+const Homepage = () => {
   return (
-    <div className="App">
-      <MyHeader></MyHeader>
-      <div>난 홈페이지 부분입니다^^</div>
+    <div className="homeWidget">
+      <MainBox/>
+      <MainBox/>
+      <MainBox/>
     </div>
-  );
+  )
 }
 
 export default Homepage;
