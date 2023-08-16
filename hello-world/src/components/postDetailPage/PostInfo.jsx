@@ -1,5 +1,5 @@
-import BoardText from "./BoardText"
-function BoardInfo(props) {
+import BoardText from "./PostDetailText"
+function PostInfo(props) {
   let text = `${props.type} ${props.count}`
     return (
       <>
@@ -8,5 +8,6 @@ function BoardInfo(props) {
     );
   }
   
-  export default BoardInfo;
+  export default PostInfo
+;
   

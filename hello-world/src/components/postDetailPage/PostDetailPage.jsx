@@ -1,11 +1,11 @@
 import { useState } from "react";
-import BoardInfo from "./BoardInfo";
+import PostInfo from "./PostInfo";
 import UserProfile from "./UserProfile";
 
-import BoardText from "./BoardText";
+import PostDetailText from "./PostDetailText";
 import styles from "./boardStyle.module.css";
 
-function BoardPage() {
+function PostDetailPage() {
   const data = [
     {
       userName: "우직한머슴",
@@ -35,32 +35,32 @@ function BoardPage() {
   return (
     <div className="App">
       <div className={styles.category}>
-        <BoardText text={data[1].category} type="category"></BoardText>
+        <PostDetailText text={data[1].category} type="category"></PostDetailText>
       </div>
 
       <div className={styles.title}>
-        <BoardText text={data[1].title} type="title"></BoardText>
+        <PostDetailText text={data[1].title} type="title"></PostDetailText>
       </div>
 
       <div className={styles.boardInfo}>
         <UserProfile user={user}></UserProfile>
-        <BoardInfo type="게시시간" count={postTime}></BoardInfo>
+        <PostInfo type="게시시간" count={postTime}></PostInfo>
         <div></div>
-        <BoardInfo type="조회" count={viewsCount}></BoardInfo>
+        <PostInfo type="조회" count={viewsCount}></PostInfo>
         {" | "}
-        <BoardInfo type="추천" count={likeCount}></BoardInfo>
+        <PostInfo type="추천" count={likeCount}></PostInfo>
         {" | "}
-        <BoardInfo type="댓글" count={commentCount}></BoardInfo>
+        <PostInfo type="댓글" count={commentCount}></PostInfo>
       </div>
 
-      <div>
-        <BoardText text={data[1].content} type="content"></BoardText>
+      <div className={styles.content}>
+        <PostDetailText text={data[1].content} type="content"></PostDetailText>
       </div>
 
-      <BoardInfo type="추천" count={likeCount}></BoardInfo>
-      <BoardInfo type="비추천" count={dislikeCount}></BoardInfo>
+      <PostInfo type="추천" count={likeCount}></PostInfo>
+      <PostInfo type="비추천" count={dislikeCount}></PostInfo>
     </div>
   );
 }
 
-export default BoardPage;
+export default PostDetailPage;

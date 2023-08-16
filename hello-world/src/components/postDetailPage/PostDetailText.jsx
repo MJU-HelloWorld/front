@@ -1,5 +1,5 @@
 import styles from '../common/font.module.css'
-function BoardText(props) {
+function PostDetailText(props) {
   let textType = "styles.textContent"
  
   switch(props.type){
@@ -38,5 +38,5 @@ function BoardText(props) {
   </>;
 }
 
-export default BoardText;
+export default PostDetailText;
 
