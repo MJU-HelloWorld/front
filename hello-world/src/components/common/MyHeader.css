@@ -50,13 +50,14 @@
     color: #333333;
     font-size: 14px;
     cursor: pointer;
-    padding-left: 1000px;
+    padding-right: 0px;
     margin-top: -2.5px;
     font-family: 'Pretendard';
     font-weight: 700;
     line-height: 4;
     word-wrap: break-word;
     margin-left: auto;
+    text-decoration-line : none;
 }
 
 /*Header2*/
@@ -66,15 +67,16 @@
     height: 54px;
     top: 110px;
     position: absolute;
+    display: flex;
 
 }
 
 .Section2 {
     width: 1104px; 
     height: 54px;
-    margin-left: 189px;
+    margin-left: 150px;
     justify-content: center;
-    top: 0px;
+    top: -15px;
     position: absolute;
     display: flex; 
 }
@@ -89,11 +91,12 @@
     word-wrap: break-word;
     margin-left: -630px;
     cursor: pointer;
+    text-decoration-line : none;
 }
 
 .Free {
     position: 'absolute';
-    color:#F8F8F8;
+    color:#ffffff;
     font-Size: 16;
     font-family: 'Pretendard';
     font-weight: 700;
@@ -101,11 +104,12 @@
     word-wrap: break-word;
     padding-left: 59px;
     cursor: pointer;
+    text-decoration-line : none;
 }
 
 .Wed {
     position: 'absolute';
-    color:#F8F8F8;
+    color:#ffffff;
     font-Size: 16;
     font-family: 'Pretendard';
     font-weight: 700;
@@ -113,11 +117,12 @@
     word-wrap: break-word;
     padding-left: 59px;
     cursor: pointer;
+    text-decoration-line : none;
 }
 
 .You {
     position: 'absolute';
-    color:#F8F8F8;
+    color:#ffffff;
     font-Size: 16;
     font-family: 'Pretendard';
     font-weight: 700;
@@ -125,11 +130,12 @@
     word-wrap: break-word;
     padding-left: 59px;
     cursor: pointer;
+    text-decoration-line : none;
 }
 
 .North {
     position: 'absolute';
-    color:#F8F8F8;
+    color:#ffffff;
     font-Size: 16;
     font-family: 'Pretendard';
     font-weight: 700;
@@ -137,6 +143,7 @@
     word-wrap: break-word;
     padding-left: 59px;
     cursor: pointer;
+    text-decoration-line : none;
 }
 
 .Red-circle {
@@ -144,7 +151,6 @@
     height: 6px; 
     position: absolute; 
     border-radius: 9999;
-    float:inherit; 
 }
 
 .Write-btn {

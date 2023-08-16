@@ -4,7 +4,9 @@ function Homepage() {
   return (
     <div className="App">
       <MyHeader></MyHeader>
-      <div></div>
+      <div>
+        홈페이지 입니다.
+      </div>
     </div>
   );
 }
