@@ -1,8 +1,9 @@
+import BoardPage from "./components/boardPage/BoardPage";
 import Homepage from "./components/homePage/Homepage";
 function App() {
   return (
     <div className="App">
-      <Homepage></Homepage>
+      <BoardPage></BoardPage>
       
     </div>
   );
