@@ -1,10 +1,29 @@
 import PostDetailText from "./PostDetailText";
+import userIcon from "../../assets/imgs/userIcon.png";
+import styles from "./boardStyle.module.css";
 function UserProfile(props) {
   return (
     <>
-      <PostDetailText text={props.user.프로필사진} type="userName"></PostDetailText>
-      <PostDetailText text={props.user.userName} type="userName"></PostDetailText>
-      <PostDetailText text={props.user.유형} type="userName"></PostDetailText>
+      <div className={styles.userIcon}>
+        <img src={userIcon} alt="userIcon"></img>
+      </div>
+
+      <div className={styles.userExplainContainer}>
+        <div className={styles.userExplain}>
+          <PostDetailText
+            text={props.user.userName}
+            type="userName"
+          ></PostDetailText>
+          <PostDetailText
+            text={props.user.userType}
+            type="userName"
+          ></PostDetailText>
+        </div>
+        <PostDetailText
+          type="boardTime"
+          text={`${props.postTime}시간 전`}
+        ></PostDetailText>
+      </div>
     </>
   );
 }

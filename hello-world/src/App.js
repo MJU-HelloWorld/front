@@ -1,5 +1,5 @@
 import PostDetailPage from "./components/postDetailPage/PostDetailPage";
-import Homepage from "./components/homePage/Homepage";
+// import Homepage from "./components/homePage/Homepage";
 function App() {
   return (
     <div className="App">
