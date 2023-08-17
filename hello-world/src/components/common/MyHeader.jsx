@@ -38,8 +38,8 @@ function MyHeader() {
             <Link to={"/"} className="Home">홈</Link>
             <div className="Red-circle" style={{color: "#EB2D2D"}}/>
             <Link to={"/PostDetail/자유"} className="Free">자유</Link>
-            <Link to={"/PostDetail/결혼이민자"} className="Wed">결혼이민자</Link>
             <Link to={"/PostDetail/유학생"} className="You">유학생</Link>
+            <Link to={"/PostDetail/결혼이민자"} className="Wed">결혼이민자</Link>
             <Link to={"/PostDetail/북한이탈주민"} className="North">북한이탈주민</Link>
           </div>
           <div className="RightLinks">

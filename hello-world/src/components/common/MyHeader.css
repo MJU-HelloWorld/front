@@ -109,7 +109,7 @@
     color:#ffffff;
     font-Size: 16;
     font-family: 'Pretendard';
-    font-weight: 700;
+    font-weight: 600;
     line-height: 3.5;
     word-wrap: break-word;
     cursor: pointer;
@@ -121,21 +121,7 @@
     color:#ffffff;
     font-Size: 16;
     font-family: 'Pretendard';
-    font-weight: 700;
-    line-height: 3.5;
-    word-wrap: break-word;
-    padding-left: 59px;
-    float:left;
-    cursor: pointer;
-    text-decoration-line : none;
-}
-
-.Wed {
-    position: 'absolute';
-    color:#ffffff;
-    font-Size: 16;
-    font-family: 'Pretendard';
-    font-weight: 700;
+    font-weight: 600;
     line-height: 3.5;
     word-wrap: break-word;
     padding-left: 59px;
@@ -149,7 +135,21 @@
     color:#ffffff;
     font-Size: 16;
     font-family: 'Pretendard';
-    font-weight: 700;
+    font-weight: 600;
+    line-height: 3.5;
+    word-wrap: break-word;
+    padding-left: 59px;
+    float:left;
+    cursor: pointer;
+    text-decoration-line : none;
+}
+
+.Wed{
+    position: 'absolute';
+    color:#ffffff;
+    font-Size: 16;
+    font-family: 'Pretendard';
+    font-weight: 600;
     line-height: 3.5;
     word-wrap: break-word;
     padding-left: 59px;
@@ -163,7 +163,7 @@
     color:#ffffff;
     font-Size: 16;
     font-family: 'Pretendard';
-    font-weight: 700;
+    font-weight: 600;
     line-height: 3.5;
     word-wrap: break-word;
     float:left;
