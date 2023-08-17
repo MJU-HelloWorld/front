@@ -42,7 +42,7 @@ const ImageUploader = ({ preview_URL, setImage }) => {
         style={{ display: "none" }}
       />
       <div className="img-wrapper">
-        <img src={preview_URL} />
+        <img src={preview_URL} alt="Uploaded Preview" className="uploaded-image" style={{width: 200, height: 200, borderRadius: 10}}/>
       </div>
     
     </div>

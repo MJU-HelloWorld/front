@@ -1,8 +1,6 @@
-import React, { useState } from 'react';
 import "./WritePage.css";
 
-const BoardSelect = () => {
-  const [board, setBoard] = useState('');
+const BoardSelect = ({ board, setBoard }) => {
 
   const handleChange = (event) => {
     setBoard(event.target.value);

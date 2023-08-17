@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+
 import "./WritePage.css";
 
-const CategorySelect = () => {
-  const [category, setCategory] = useState('');
+const CategorySelect = ({ category, setCategory }) => {
+
 
   const handleChange = (event) => {
     setCategory(event.target.value);
