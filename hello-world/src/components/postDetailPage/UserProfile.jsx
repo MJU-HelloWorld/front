@@ -16,7 +16,7 @@ function UserProfile(props) {
           ></PostDetailText>
           <PostDetailText
             text={props.user.userType}
-            type="userName"
+            type="userType"
           ></PostDetailText>
         </div>
         <PostDetailText

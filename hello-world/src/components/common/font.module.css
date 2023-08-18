@@ -44,6 +44,24 @@
   line-height: 150%; /* 21px */
   letter-spacing: -0.154px;
 }
+.textUserType{
+  font-family: Pretendard-Bold, sans-serif;
+  color: #3366FF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 21px */
+  letter-spacing: -0.154px;
+  
+  background-color: #E1E8FF;
+  width:42px;
+  height:19px;
+
+  border-radius: 5px;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+}
 .textBoardTime {
   font-family: Pretendard-Bold, sans-serif;
   color: #afbccf;

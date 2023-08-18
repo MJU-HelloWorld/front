@@ -27,6 +27,10 @@ function PostDetailText(props) {
       textType = "textBoardInfo"
       break;
     }
+    case "userType":{
+      textType="textUserType"
+      break;
+    }
     default:{
       textType ="textContent"
       break;

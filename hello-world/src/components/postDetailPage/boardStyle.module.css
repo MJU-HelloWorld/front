@@ -30,7 +30,7 @@
 
 .userProfileContainer {
   /* 컨테이너 속성 */
-  border-style: solid;
+  /* border-style: solid; */
   height: 40px;
   /* 아이템 정렬 */
   display: flex;
@@ -41,7 +41,7 @@
   
 }
 .userIcon {
-  border-style: solid;
+  /* border-style: solid; */
   width: 40px;
   height: 40px;
   display: inline-block;
@@ -59,7 +59,7 @@
 .userProfileContainer .userExplainContainer{
   /* 컨테이너 속성 */
   height:40px;
-  border-style: solid;
+  /* border-style: solid; */
 
   /* 아이템속성 */
   display: flex;
