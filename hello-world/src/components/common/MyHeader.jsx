@@ -3,6 +3,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./MyHeader.css";
+import searchIcon from "../../assets/imgs/search.png";
+import writeIcon from "../../assets/imgs/write.png";
+
 
 function MyHeader() {
   // 검색 기능을 수행하는 함수
@@ -21,7 +24,7 @@ function MyHeader() {
             placeholder="한국에서 살아남는 법" 
             onChange={handleSearch}
           />
-          <img className="Search-icon" src="img/search.png" alt="검색 아이콘"/>
+          <img className="Search-icon" src={searchIcon} alt="검색 아이콘"/>
         </div>
         <Link to={"/"} className="Logo"
           style={{left: 0,top: 5,position: "absolute",backgroundImage: "linear-gradient(to right, #3366FF, #EB2D2D)",WebkitBackgroundClip: "text",color: "transparent",fontSize: 32,fontFamily: "PyeongChang Peace",fontWeight: "700",wordWrap: "break-word", cursor: "pointer",
@@ -44,7 +47,7 @@ function MyHeader() {
           </div>
           <div className="RightLinks">
             <Link to={"/write"} className="Write-btn" style={{background: '#ffffff' ,borderRadius: 90}}>
-              <img className="Write-icon" src="img/write.png" alt="글쓰기 아이콘" />
+              <img className="Write-icon" src={writeIcon} alt="글쓰기 아이콘" />
               <div className="Write-text">글쓰기</div>
             </Link>
           </div>
