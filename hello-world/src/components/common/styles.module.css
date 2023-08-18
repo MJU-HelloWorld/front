@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url('../assets/fonts/Pretendard-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../assets/fonts/Pretendard-SemiBold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/Inter-Medium.ttf') format('truetype');
+}
