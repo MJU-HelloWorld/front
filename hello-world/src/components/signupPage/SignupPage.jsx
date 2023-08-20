@@ -1,14 +1,14 @@
 import MyHeader from "../common/MyHeader";
 
-function Homepage() {
+function SignupPage() {
   return (
     <div className="App">
       <MyHeader></MyHeader>
       <div>
-        홈페이지 입니다.
+        회원가입 페이지입니다.
       </div>
     </div>
   );
 }
 
-export default Homepage;
+export default SignupPage;

@@ -1,0 +1,210 @@
+/* MyHeader.css */
+
+.Header1 {
+    width: 100vw;
+    height: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Section1 {
+    width: 80%;
+    max-width: 1104px;
+    height: 53.2px;
+    justify-content: center;
+    top: 30px; 
+    position: absolute;
+    display: flex;
+}
+
+
+
+.Search {
+    max-width: 450px;
+    position: absolute;
+    margin-right: 250px;
+}
+
+@media screen and (max-width: 1250px) {
+    .Search {
+      visibility: hidden;
+    }
+}
+
+.Search-box {
+    width: 450px;
+    height: 45px;
+    background-color: "white";
+    border-width: 2px;
+    border-style: solid;
+    border-color: #3366FF;
+    
+}
+
+
+.Search-icon {
+    width: 22px;
+    height: 22px;
+    cursor: "pointer";
+    border: "none";
+    position: absolute;
+    right: 10px;
+    margin-top: -35px;
+}
+
+
+.Sign {
+    color: #333333;
+    font-size: 14px;
+    cursor: pointer;
+    padding-right: 0px;
+    margin-top: -2.5px;
+    font-family: 'Pretendard';
+    font-weight: 700;
+    line-height: 4;
+    word-wrap: break-word;
+    margin-left: auto;
+    text-decoration-line : none;
+}
+
+/*Header2*/
+
+.Header2 {
+    width: 100vw;
+    height: 54px;
+    top: 110px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Section2 {
+    width: 80%;
+    max-width: 1104px; 
+    height: 54px;
+    display: flex;
+    justify-content: space-between; /* 변경 */
+    align-items: center;
+    top: -15px;
+    position: relative;
+}
+
+.LeftLinks {
+    display: flex;
+    align-items: center;
+    margin-left: -15px;
+}
+
+.RightLinks {
+    display: flex;
+    align-items: center;
+    margin-right: 127px;
+}
+
+.Home {
+    position: 'absolute';
+    color:#ffffff;
+    font-Size: 16;
+    font-family: 'Pretendard';
+    font-weight: 600;
+    line-height: 3.5;
+    word-wrap: break-word;
+    cursor: pointer;
+    text-decoration-line : none;
+}
+
+.Free {
+    position: 'absolute';
+    color:#ffffff;
+    font-Size: 16;
+    font-family: 'Pretendard';
+    font-weight: 600;
+    line-height: 3.5;
+    word-wrap: break-word;
+    padding-left: 59px;
+    float:left;
+    cursor: pointer;
+    text-decoration-line : none;
+}
+
+.You {
+    position: 'absolute';
+    color:#ffffff;
+    font-Size: 16;
+    font-family: 'Pretendard';
+    font-weight: 600;
+    line-height: 3.5;
+    word-wrap: break-word;
+    padding-left: 59px;
+    float:left;
+    cursor: pointer;
+    text-decoration-line : none;
+}
+
+.Wed{
+    position: 'absolute';
+    color:#ffffff;
+    font-Size: 16;
+    font-family: 'Pretendard';
+    font-weight: 600;
+    line-height: 3.5;
+    word-wrap: break-word;
+    padding-left: 59px;
+    float:left;
+    cursor: pointer;
+    text-decoration-line : none;
+}
+
+.North {
+    position: 'absolute';
+    color:#ffffff;
+    font-Size: 16;
+    font-family: 'Pretendard';
+    font-weight: 600;
+    line-height: 3.5;
+    word-wrap: break-word;
+    float:left;
+    padding-left: 59px;
+    cursor: pointer;
+    text-decoration-line : none;
+}
+
+.Red-circle {
+    width: 6px;
+    height: 6px; 
+    position: absolute; 
+    border-radius: 9999;
+}
+
+.Write-btn {
+    width: 110px;
+    height: 38px;  
+    top: 8px; 
+    position: absolute;
+    border-radius: 90;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.Write-icon {
+    width: 17px;
+    height: 17px;
+    left: 21px;
+    top: 11px; 
+    position: absolute;}
+
+.Write-text {
+    left: 47px; 
+    top: 7px;
+    position: absolute;
+    color: #3366FF;
+    font-size: 16px;
+    font-family: 'Pretendard'; 
+    font-weight: 700; 
+    line-height: 1.5;
+    word-wrap: break-word;
+}
